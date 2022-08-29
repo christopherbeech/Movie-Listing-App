@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+
+//Resets
+@import './styles/init-css';
+
+//Color variables
+@import './styles/colors';
+
+//Google fonts
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800&family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,800;9..144,900&family=Open+Sans:wght@300;400;500;600;700;800&family=Outfit&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,400&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+//Importing Grid System from Primeflex Libray 
+@import '~primeflex/primeflex.css';
+
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: $white;
+}
+
+body {
+    background-color: $bgColor;    
+}
+
+a{
+    text-decoration: none;
+    color: $white;
+}
